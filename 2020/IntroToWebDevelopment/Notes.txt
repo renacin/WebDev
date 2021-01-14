@@ -10,7 +10,17 @@ Pre-lecture Questions:
     +
 
 Lecture Notes:
-    +
+    + Basics Of HTML
+        - This is the content of the webpage
+        - Hyper Text Markup Language (HTML) is one of many markup languages
+            + Language that we use to markup documents
+        - 1989/1990 HTML was created to help describe the structure of academic papers so that they could be shared
+            via the internet
+        - Simply; Take Text, Mark It Up, Share It Via Internet
+        - Markup text with HTML elements:
+            <p>  (Opening Tag)
+            </p> (Closing Tag)
+
 
 IMPORTANT RESOURCES
     +
