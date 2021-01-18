@@ -6,7 +6,6 @@ Following The Udemy Course: "The Web-Developer Bootcamp"
 Course # : Section 3, Lecture 19 - 31
 
 ------------------------------------------------------------------------------------------------------------------------
-
 Lecture Notes:
 
 
@@ -62,13 +61,55 @@ Lecture Notes:
             + Used to create tabular data
 
 
-    + Important Tags
-        - 
+    + HTML Boilerplate (Skeleton)
+        - <!DOCTYPE html>
+            + Is a flag for your browser; tells it it's looking at an HTML document
+
+        - <html></html>
+            + Is the main root element of your HTML documents
+            + Can only support 1 head, and 1 body element
+
+        - <head></head>
+            + Head element contains machine readable information; mostly for SEO, Document information, and links to
+                other documents. Basically the metadata
+
+        - <body></body>
+            + Contains the main elements of your WEB page
 
 
+    + List Elements
+        - Lists are a very useful object within web design
+        - Two types of lists
+            + Unordered Lists (Nominal Data)
+                - <ul></ul>
+                - <li></li>
+
+            + Ordered Lists (Ordinal Data)
+                - <ol></ol>
+                - <li></li>
+
+        - Can have lists within lists!
+
+
+    + Anchor Tags
+        - <a></a>
+        - Creates a hyperlink to web-pages, files, email addresses, locations, or any other URL
+        - Needs a reference attribute to complete the link
+        - <a href="www.google.com">LINK</a>
+
+
+    + Image Element
+        - <img>
+        - Doesn't have a closing tag
+
+
+    + Comments
+        - Are very useful when organizing code, as well as sharing amongst other developers
+        - In HTML comments are defined within <!-- -->
+        - Remember Atom and most other text editors support comment shortcuts
+            + Command + Forward Slash
 
 ------------------------------------------------------------------------------------------------------------------------
-
 IMPORTANT RESOURCES
     + https://developer.mozilla.org/en-US/
         - Wikipedia for web-developers
@@ -78,3 +119,8 @@ IMPORTANT RESOURCES
 
     + https://developer.mozilla.org/en-US/docs/Web/HTML/Element
         - More detail on elements
+
+
+------------------------------------------------------------------------------------------------------------------------
+SIDE NOTES
+    + Generate HTML boilerplate quickly by typing ! + TAB
