@@ -7,6 +7,7 @@ Section  | Progress
 
 
 <br />
+
 ### 1.0 Introduction ###
 Websites are just cool. You can use them to share pictures, ideas; or even use them to host games, and music. These are just a few things that can be accomplished with websites.
 Usability and accessibility aside, websites can be fairly difficult to create. With anything based in code and/or markup, a significant learning curve is almost always present; websites are no different.
@@ -21,9 +22,11 @@ Build projects that I'm interested in and learn as I'm going.
 As follows is the first couple of steps in my never-ending journey into Web Development.
 
 <br />
+
 ### 1.1 Overview of Projects Completed ###
 Here are a few of the projects that I have completed in my journey to become a Web Developer.
 
 <br />
+
 ### 1.1.0 Basic Blog ###
 I want to build a blog. Nothing fancy, no moving carousels, call to subscriptions, or CSS animations (okay maybe one or two). I just want a blog to achieve my thoughts and personal projects and that's it.
