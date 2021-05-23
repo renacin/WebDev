@@ -2,8 +2,8 @@
 Section  | Progress
 | :--- | ---:
 [1.0 Introduction](https://github.com/renacin/IntervalHouse_DataAnalytics#10-introduction)  |
-[---- 1.1 Overview of Projects Completed](https://github.com/renacin/IntervalHouse_DataAnalytics#11-data-collection-preparation--exploration)          |
-[-------- 1.1.0 Basic Blog](https://github.com/renacin/IntervalHouse_DataAnalytics#12-research-questions)                                              | :construction_worker:
+[2.0 Overview of Projects Completed](https://github.com/renacin/IntervalHouse_DataAnalytics#11-data-collection-preparation--exploration)          |
+[---- 2.1 Basic Blog](https://github.com/renacin/IntervalHouse_DataAnalytics#12-research-questions)                                              | :construction_worker:
 
 
 <br />
@@ -28,5 +28,5 @@ Here are a few of the projects that I have completed in my journey to become a W
 
 <br />
 
-### 1.1.0 Basic Blog ###
+## 2.1 Basic Blog ##
 I want to build a blog. Nothing fancy, no moving carousels, call to subscriptions, or CSS animations (okay maybe one or two). I just want a blog to achieve my thoughts and personal projects and that's it.
