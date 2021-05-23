@@ -19,14 +19,14 @@ I've put together a series of screenshots as well as general themes that I want 
 
 <br />
 
+<h5 align="center">General Layout & Shapes Used</h5>
 <p align="center">
-#### General Layout & Shapes Used ####
     <img src="https://github.com/renacin/WebDev/blob/main/Blog/Images/Blog_LayoutAndShapes.jpg" height="400" width="400">
 </p>
 
 <br />
 
+<h5 align="center">Main Blog Styling</h5>
 <p align="center">
-#### Main Blog Styling ####
     <img src="https://github.com/renacin/WebDev/blob/main/Blog/Images/Blog_MainStyleElements.jpg" height="400" width="400">
 </p>
