@@ -18,8 +18,11 @@ As previously mentioned, the blog that I want to create should be simple - free 
 I've put together a series of screenshots as well as general themes that I want to emulate in my blog that will help describe the look that I'm after.
 
 #### General Layout & Shapes Used ####
-<img src="https://github.com/renacin/WebDev/blob/main/Blog/Images/Blog_LayoutAndShapes.jpg" align="center" height="400" width="400">
-
+<p align="center">
+    <img src="https://github.com/renacin/WebDev/blob/main/Blog/Images/Blog_LayoutAndShapes.jpg" height="400" width="400">
+</p>
 
 #### Main Blog Styling ####
-<img src="https://github.com/renacin/WebDev/blob/main/Blog/Images/Blog_MainStyleElements.jpg" align="center" height="400" width="400">
+<p align="center">
+    <img src="https://github.com/renacin/WebDev/blob/main/Blog/Images/Blog_MainStyleElements.jpg" height="400" width="400">
+</p>
