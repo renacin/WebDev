@@ -17,10 +17,14 @@ I want to build a blog. Nothing fancy, no moving carousels, call to subscription
 As previously mentioned, the blog that I want to create should be simple - free of anything that may slow the learning process. However it should look like a blog that I created. It should have my style.
 I've put together a series of screenshots as well as general themes that I want to emulate in my blog that will help describe the look that I'm after.
 
+<br />
+
 #### General Layout & Shapes Used ####
 <p align="center">
     <img src="https://github.com/renacin/WebDev/blob/main/Blog/Images/Blog_LayoutAndShapes.jpg" height="400" width="400">
 </p>
+
+<br />
 
 #### Main Blog Styling ####
 <p align="center">
