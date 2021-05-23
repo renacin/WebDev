@@ -16,7 +16,15 @@ In the past I have tried to follow tutorials, courses, and other structured work
 to programming in Python (a language that I am fairly confident in) or to some other personal project. But weeks later, I'm yet again amazed by snazzy websites, or another incredibly polished React apps; and the burning
 desire to learn to develop websites always comes back.
 
-I guess this is my 3rd or 4th time trying to learn Web Development (I've honestly lost track). But unlike my previous attempts I won't follow a structured approach; instead I'll learn to program like I did with Python.
+I guess this is my third or fourth time trying to learn Web Development (I've honestly lost track). But unlike my previous attempts I won't follow a structured approach; instead I'll learn to program like I did with Python.
 Build projects that I'm interested in and learn as I'm going.
 
-As follows is the first couple of steps in my never-ending journey into Web Development. 
+As follows is the first couple of steps in my never-ending journey into Web Development.
+
+
+### 1.1 General Overview of Project ###
+I want to build a blog. Nothing fancy, no moving carousels, call to subscriptions, or CSS animations (okay maybe one or two).
+
+I just want a blog to achieve my thoughts and personal projects and that's it.
+
+Here is the general layout that I developed in Illustrator.
