@@ -1,10 +1,10 @@
 ## Table Of Contents ##
 Section  | Progress
 | :--- | ---:
-[1.0 General Overview of Project](https://github.com/renacin/IntervalHouse_DataAnalytics#10-introduction)  |
-[---- 1.1 Design Approach](https://github.com/renacin/IntervalHouse_DataAnalytics#12-research-questions)                                            | :construction_worker:
-[---- 1.2 Problems Faced](https://github.com/renacin/IntervalHouse_DataAnalytics#13-deliverables)                                                   | :construction_worker:
-[---- 1.3 Resources](https://github.com/renacin/IntervalHouse_DataAnalytics#14-questions--resources)                                                | :construction_worker:
+[1.0 General Overview of Project](https://github.com/renacin/WebDev/tree/main/Blog#10-general-overview-of-project)                               |
+[---- 1.1 Design Approach](https://github.com/renacin/WebDev/tree/main/Blog#11-design-approach)                                                  | :construction_worker:
+[---- 1.2 Problems Faced](https://github.com/renacin/WebDev/tree/main/Blog#11-design-approach)                                                   | :construction_worker:
+[---- 1.3 Resources](https://github.com/renacin/WebDev/tree/main/Blog#11-design-approach)                                                        | :construction_worker:
 
 <br />
 

@@ -1,9 +1,9 @@
 ## Table Of Contents ##
 Section  | Progress
 | :--- | ---:
-[1.0 Introduction](https://github.com/renacin/IntervalHouse_DataAnalytics#10-introduction)  |
-[2.0 Overview of Projects Completed](https://github.com/renacin/IntervalHouse_DataAnalytics#11-data-collection-preparation--exploration)          |
-[---- 2.1 Basic Blog](https://github.com/renacin/IntervalHouse_DataAnalytics#12-research-questions)                                              | :construction_worker:
+[1.0 Introduction](https://github.com/renacin/WebDev#10-introduction)                                                                            |
+[2.0 Overview of Projects Completed](https://github.com/renacin/WebDev#11-overview-of-projects-completed)                                        |
+[---- 2.1 Basic Blog](https://github.com/renacin/WebDev/tree/main/Blog)                                                                          | :construction_worker:
 
 
 <br />
