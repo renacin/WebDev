@@ -32,10 +32,15 @@ I've put together a series of screenshots as well as general themes that I want 
     <img src="https://github.com/renacin/WebDev/blob/main/Blog/Images/Blog_MainStyleElements.jpg" height="400" width="400">
 </p>
 
+<br/>
 
 I know, two artboards doesn't really explain much - let alone convey the idea that I have going in my head; but I can get the general picture across. I want a straight forward blog that has a simple yet modern layout. Making
 conservative use of simple polygons (mostly rectangles), high contrast fonts, as well as colors - most of the website should be dedicated to negative space. I want the reader to quickly understand the flow of the blog, find
 what they need and accomplish what they came to do. Simple enough.
 
 In terms of styling I want the blog to look like an IDE, or some sort of programming environment. Unlike programming however, I still want the website to friendly and approachable. Most people are quite afraid of the command
-line; I don't want that for my blog.
+line; I don't want that.
+
+I've roughed out the main page in Illustrator.
+
+<br/>
