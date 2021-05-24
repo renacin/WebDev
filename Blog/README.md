@@ -17,16 +17,25 @@ I want to build a blog. Nothing fancy, no moving carousels, call to subscription
 As previously mentioned, the blog that I want to create should be simple - free of anything that may slow the learning process. However it should look like a blog that I created. It should have my style.
 I've put together a series of screenshots as well as general themes that I want to emulate in my blog that will help describe the look that I'm after.
 
+
 <br />
 
-<h5 align="center">General Layout & Shapes Used</h5>
+<h4 align="center">General Layout</h4>
 <p align="center">
     <img src="https://github.com/renacin/WebDev/blob/main/Blog/Images/Blog_LayoutAndShapes.jpg" height="400" width="400">
 </p>
 
 <br />
 
-<h5 align="center">Main Blog Styling</h5>
+<h4 align="center">Main Styling</h4>
 <p align="center">
     <img src="https://github.com/renacin/WebDev/blob/main/Blog/Images/Blog_MainStyleElements.jpg" height="400" width="400">
 </p>
+
+
+I know, two artboards doesn't really explain much - let alone convey the idea that I have going in my head; but I can get the general picture across. I want a straight forward blog that has a simple yet modern layout. Making
+conservative use of simple polygons (mostly rectangles), high contrast fonts, as well as colors - most of the website should be dedicated to negative space. I want the reader to quickly understand the flow of the blog, find
+what they need and accomplish what they came to do. Simple enough.
+
+In terms of styling I want the blog to look like an IDE, or some sort of programming environment. Unlike programming however, I still want the website to friendly and approachable. Most people are quite afraid of the command
+line; I don't want that for my blog. 
