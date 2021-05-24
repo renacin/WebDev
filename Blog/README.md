@@ -44,3 +44,8 @@ line; I don't want that.
 I've roughed out the main page in Illustrator.
 
 <br/>
+
+<h4 align="center">Main Styling</h4>
+<p align="center">
+    <img src="https://github.com/renacin/WebDev/blob/main/Blog/Images/MainPage_MainPage.jpg" width="600">
+</p>
