@@ -20,14 +20,14 @@ I've put together a series of screenshots as well as general themes that I want 
 
 <br/>
 
-<h4 align="center">General Layout</h4>
+<h4 align="center">Inspiration</h4>
 <p align="center">
     <img src="https://github.com/renacin/WebDev/blob/main/Blog/Images/Blog_LayoutAndShapes.jpg" height="400" width="400">
 </p>
 
 <br/>
 
-<h4 align="center">Main Styling</h4>
+<h4 align="center">Design Focus</h4>
 <p align="center">
     <img src="https://github.com/renacin/WebDev/blob/main/Blog/Images/Blog_MainStyleElements.jpg" height="400" width="400">
 </p>
@@ -45,7 +45,7 @@ I've roughed out the main page in Illustrator.
 
 <br/>
 
-<h4 align="center">Main Styling</h4>
+<h4 align="center">Main Page</h4>
 <p align="center">
-    <img src="https://github.com/renacin/WebDev/blob/main/Blog/Images/MainPage_MainPage.jpg" width="600">
+    <img src="https://github.com/renacin/WebDev/blob/main/Blog/Images/MainPage_MainPage.jpg" width="800">
 </p>
