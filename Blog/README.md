@@ -41,11 +41,18 @@ what they need and accomplish what they came to do. Simple enough.
 In terms of styling I want the blog to look like an IDE, or some sort of programming environment. Unlike programming however, I still want the website to friendly and approachable. Most people are quite afraid of the command
 line; I don't want that.
 
-I've roughed out the main page in Illustrator.
+I've roughed out the main page in Illustrator. Here is what I started with.
 
 <br/>
 
-<h4 align="center">Main Page</h4>
+<h4 align="center">Main Page Edit #1</h4>
 <p align="center">
     <img src="https://github.com/renacin/WebDev/blob/main/Blog/Images/MainPage_MainPage.jpg" width="800">
+</p>
+
+After a couple more edits here is what I have so far. Simple, and clean.
+
+<h4 align="center">Main Page Edit #2</h4>
+<p align="center">
+    <img src="https://github.com/renacin/WebDev/blob/main/Blog/Images/WebsiteLayout_E2.jpg" width="800">
 </p>
