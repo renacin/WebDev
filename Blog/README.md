@@ -26,7 +26,7 @@ I've put together a series of screenshots as well as general themes that I want 
 
 <br/>
 
-I know, two artboards doesn't really explain much - let alone convey the idea that I have going in my head; but I can get the general picture across. I want a straight forward blog that has a simple yet modern layout. Making
+I know, an artboards doesn't really explain much - let alone convey the idea that I have going in my head; but I can get the general picture across. I want a straight forward blog that has a simple yet modern layout. Making
 conservative use of simple polygons (mostly rectangles), high contrast fonts, as well as colors - most of the website should be dedicated to negative space. I want the reader to quickly understand the flow of the blog, find
 what they need and accomplish what they came to do. Simple enough.
 
