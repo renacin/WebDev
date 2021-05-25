@@ -21,7 +21,7 @@ I've put together a series of screenshots as well as general themes that I want 
 
 <h4 align="center">Inspiration</h4>
 <p align="center">
-    <img src="https://github.com/renacin/WebDev/blob/main/Blog/Images/Blog_MainStyleElements.jpg" height="400" width="400">
+    <img src="https://github.com/renacin/WebDev/blob/main/Blog/Images/Inspo.jpg" height="400" width="400">
 </p>
 
 <br/>
@@ -39,7 +39,7 @@ I've roughed out the main page in Illustrator. Here is what I started with.
 
 <h4 align="center">Main Page Edit #1</h4>
 <p align="center">
-    <img src="https://github.com/renacin/WebDev/blob/main/Blog/Inspo.jpg" width="800">
+    <img src="https://github.com/renacin/WebDev/blob/main/Blog/Edit_1.jpg" width="800">
 </p>
 
 After a couple more edits here is what I have so far. Simple, and clean.
