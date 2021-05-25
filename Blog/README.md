@@ -39,7 +39,7 @@ I've roughed out the main page in Illustrator. Here is what I started with.
 
 <h4 align="center">Main Page Edit #1</h4>
 <p align="center">
-    <img src="https://github.com/renacin/WebDev/blob/main/Blog/Edit_1.jpg" width="800">
+    <img src="https://github.com/renacin/WebDev/blob/main/Blog/Images/Edit_1.jpg" width="800">
 </p>
 
 After a couple more edits here is what I have so far. Simple, and clean.
