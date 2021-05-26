@@ -1,4 +1,3 @@
-
 // ---------------  Grab Date Information Return Date String   -------------
 // Basic Date Information
 var myDate = new Date(),

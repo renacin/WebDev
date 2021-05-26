@@ -1,5 +1,4 @@
 /* Clear Any Styles Applied To The Basic Template */
-
 * {
     margin: 0;
     padding: 0;
@@ -7,22 +6,27 @@
     box-sizing: border-box;
 }
 
-html {
+@font-face {
+    font-family: 'IosevkaRegular';
+    src: url('fonts/iosevka_regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
+html {
+    background-color: #1A1A1A;
+    color:#F2F2F2;
+    font-family: 'IosevkaRegular';
+}
 
+.ans_colr {
+    color: #808080;
+}
 
 .blurb {
-    margin: 2rem auto;
-    background-color: rgba(85, 100, 117, 0.2);
-    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.15);
-    background-color: rgba(255, 255, 255, 0.1);
-    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.3);
-    border-radius: 0.5rem;
-    padding: 1rem;
+    background-color: #1A1A1A;
 }
 
 .blurb:hover {
-    background-color: rgba(85, 100, 117, 0.5);
-    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.3);
+    background-color: #262626;
 }
