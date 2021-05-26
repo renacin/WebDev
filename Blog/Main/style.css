@@ -35,12 +35,39 @@ html {
 
 
 /* CSS Behind Secondary Elements */
+.navigation {
+    margin: 100px;
+    margin-right: 30%;
+    margin-left: 30%;
+    padding: 30px;
+    min-width: 700px;
+}
+
+.nav_list {
+    position: relative;
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+    overflow: hidden;
+}
+
+#nav_items {
+    float: left;
+}
+
+.nav_item_h:hover {
+    background-color: #0D0D0D;
+}
+
 .blurb {
     background-color: #1A1A1A;
     border: 1px solid #808080;
     border-radius: 5px;
     margin: 20px;
+    margin-right: 30%;
+    margin-left: 30%;
     padding: 30px;
+    min-width: 700px;
 }
 
 .blurb:not(#Welcome):hover {
@@ -49,4 +76,13 @@ html {
 
 .code_back {
     background-color: #333333;
+}
+
+/* Misc Styling */
+.scrollicon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 100px;
 }
