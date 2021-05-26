@@ -13,6 +13,15 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'IosevkaThin';
+    src: url('fonts/iosevka_thin.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* CSS Behind Most Elements */
 html {
     background-color: #1A1A1A;
     color:#F2F2F2;
@@ -20,13 +29,24 @@ html {
 }
 
 .ans_colr {
-    color: #808080;
+    color: #949494;
+    font-family: 'IosevkaThin';
 }
 
+
+/* CSS Behind Secondary Elements */
 .blurb {
     background-color: #1A1A1A;
+    border: 1px solid #808080;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 30px;
 }
 
-.blurb:hover {
-    background-color: #262626;
+.blurb:not(#Welcome):hover {
+    background-color: #0D0D0D;
+}
+
+.code_back {
+    background-color: #333333;
 }
