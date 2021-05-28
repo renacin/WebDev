@@ -21,6 +21,10 @@
     font-style: normal;
 }
 
+a {
+    text-decoration:none;
+    cursor:pointer;
+}
 
 /* -------------------------------------------------------------------------- */
 /* CSS Behind Most Elements */
@@ -43,23 +47,39 @@ html {
     margin: auto;
     text-align: center;
     display: table;
-    margin: 10px auto;
+    margin: 0px auto;
 }
 
+/* CSS For My Name */
 #Name {
     font-size: 60px;
     margin: 40px auto;
 }
 
+/* CSS Behind Navigation Header */
 .nav_list {
     list-style-type: none;
 }
 
 #nav_items {
     float: left;
+    margin: 5px;
 }
 
 .nav_item_h:hover {
+    background-color: #0D0D0D;
+}
+
+
+.navlink {
+    color: #949494;
+    font-family: 'IosevkaThin';
+    text-decoration: none;
+}
+
+.navlink:hover {
+    text-decoration:none;
+    cursor:pointer;
     background-color: #0D0D0D;
 }
 
@@ -74,6 +94,7 @@ html {
     padding: 30px;
     width: 800px;
     margin: 0 auto;
+    color:#F2F2F2;
 }
 
 .blurb:not(#Welcome):hover {
