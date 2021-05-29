@@ -58,7 +58,7 @@ html {
 
 #nav_items {
     float: left;
-    margin: 5px;
+    margin: 0px;
 }
 
 .nav_item_h:hover {
@@ -79,12 +79,30 @@ html {
 }
 
 /* CSS For My Name */
-#Name {
-    font-size: 100px;
+#FirstName {
+    font-size: 80px;
     margin: 40px auto;
-    font-family: 'Shadows Into Light';
+    font-family: 'IosevkaRegular';
     color:#F2F2F2;
+    margin: 10px;
+
 }
+
+#LastName {
+    font-size: 80px;
+    margin: 40px auto;
+    font-family: 'IosevkaThin';
+    color:#F2F2F2;
+    margin: 10px;
+
+}
+
+.icon_images {
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+}
+
 
 /* -------------------------------------------------------------------------- */
 /* CSS Behind Main Content Elements */
