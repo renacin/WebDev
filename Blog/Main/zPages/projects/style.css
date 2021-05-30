@@ -9,14 +9,14 @@
 
 @font-face {
     font-family: 'IosevkaRegular';
-    src: url('fonts/iosevka_regular.ttf') format('truetype');
+    src: url('../../fonts/iosevka_regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'IosevkaThin';
-    src: url('fonts/iosevka_thin.ttf') format('truetype');
+    src: url('../../fonts/iosevka_thin.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
