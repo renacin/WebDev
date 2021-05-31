@@ -1,10 +1,10 @@
 ## Table Of Contents ##
 Section  | Progress
 | :--- | ---:
-[1.0 General Overview of Project](https://github.com/renacin/WebDev/tree/main/Blog#10-general-overview-of-project)                               |
-[---- 1.1 Design Approach](https://github.com/renacin/WebDev/tree/main/Blog#11-design-approach)                                                  | :construction_worker:
-[---- 1.2 Problems Faced](https://github.com/renacin/WebDev/tree/main/Blog#11-design-approach)                                                   | :construction_worker:
-[---- 1.3 Resources](https://github.com/renacin/WebDev/tree/main/Blog#11-design-approach)                                                        | :construction_worker:
+[1.0 General Overview of Project](https://github.com/renacin/WebDev/tree/main/PersonalWebsite#10-general-overview-of-project)                               |
+[---- 1.1 Design Approach](https://github.com/renacin/WebDev/tree/main/PersonalWebsite#11-design-approach)                                                  | :construction_worker:
+[---- 1.2 Problems Faced](https://github.com/renacin/WebDev/tree/main/PersonalWebsite#11-design-approach)                                                   | :construction_worker:
+[---- 1.3 Resources](https://github.com/renacin/WebDev/tree/main/PersonalWebsite#11-design-approach)                                                        | :construction_worker:
 
 <br/>
 
@@ -21,7 +21,7 @@ I've put together a series of screenshots as well as general themes that I want 
 
 <h4 align="center">Inspiration</h4>
 <p align="center">
-    <img src="https://github.com/renacin/WebDev/blob/main/Blog/Images/Inspo.jpg" height="400" width="400">
+    <img src="https://github.com/renacin/WebDev/blob/main/PersonalWebsite/Images/Inspo.jpg" height="400" width="400">
 </p>
 
 <br/>
@@ -39,12 +39,12 @@ I've roughed out the main page in Illustrator. Here is what I started with.
 
 <h4 align="center">Main Page Edit #1</h4>
 <p align="center">
-    <img src="https://github.com/renacin/WebDev/blob/main/Blog/Images/Edit_1.jpg" width="800">
+    <img src="https://github.com/renacin/WebDev/blob/main/PersonalWebsite/Images/Edit_1.jpg" width="800">
 </p>
 
 After a couple more edits here is what I have so far. Simple, and clean.
 
 <h4 align="center">Main Page Edit #3</h4>
 <p align="center">
-    <img src="https://github.com/renacin/WebDev/blob/main/Blog/Images/Edit_3.jpg" width="800">
+    <img src="https://github.com/renacin/WebDev/blob/main/PersonalWebsite/Images/Edit_3.jpg" width="800">
 </p>
