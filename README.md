@@ -3,7 +3,7 @@ Section  | Progress
 | :--- | ---:
 [1.0 Introduction](https://github.com/renacin/WebDev#10-introduction)                                                                            |
 [2.0 Overview of Projects Completed](https://github.com/renacin/WebDev#11-overview-of-projects-completed)                                        |
-[---- 2.1 Basic Blog](https://github.com/renacin/WebDev/tree/main/Blog)                                                                          | :construction_worker:
+[---- 2.1 Personal Website](https://github.com/renacin/WebDev/tree/main/PersonalWebsite)                                                         | :construction_worker:
 
 
 <br />
@@ -28,5 +28,5 @@ Here are a few of the projects that I have completed in my journey to become a W
 
 <br />
 
-### 2.1 Basic Blog ###
-I want to build a blog. Nothing fancy, no moving carousels, call to subscriptions, or CSS animations (okay maybe one or two). I just want a blog to archive my thoughts and personal projects and that's it.
+### 2.1 Basic Personal Website ###
+I want to build a personal. Nothing fancy, no moving carousels, call to subscriptions, or CSS animations (okay maybe one or two). I just want a place to archive my thoughts and personal projects and that's it.
