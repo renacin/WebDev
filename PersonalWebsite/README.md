@@ -54,4 +54,15 @@ After a couple more edits here is what I have so far. Simple, and clean.
 Having been my third or so attempt at Web-Development I knew the gist of creating a basic website. It wasn't too hard to lay out what I wanted in HTML, and rough out the general styling in CSS. However,
 there were areas that gave me some trouble; most of my frustrations were focused on properly centering elements, and making sure that text and images scaled properly.
 
-I think
+Once I began to flesh out my Illustrator design I soon realized that many crucial elements were missing in my webpage. Navigation would be hard without a navbar. Registering clicks would be difficult without a
+hover, and focus state; and so on and so fort. I always knew design was an important part of Web-Development, but I completely forgot that without proper UI/UX considerations users would have a hard time navigating
+and subsequently enjoying my creations. I added needed elements, as an after thought, and looking at my main page they look the part.
+
+Looking on the bright side, I learned a lot; and I feel more confident and inspired to make more, and better looking websites!
+
+<br/>
+
+<h4 align="center">Main Page Edit #1</h4>
+<p align="center">
+    <img src="https://github.com/renacin/WebDev/blob/main/PersonalWebsite/Images/Final_1.jpg" width="800">
+</p>
