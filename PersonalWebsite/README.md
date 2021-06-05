@@ -3,8 +3,7 @@ Section  | Progress
 | :--- | ---:
 [1.0 General Overview of Project](https://github.com/renacin/WebDev/tree/main/PersonalWebsite#10-general-overview-of-project)                               |
 [---- 1.1 Design Approach](https://github.com/renacin/WebDev/tree/main/PersonalWebsite#11-design-approach)                                                  | :construction_worker:
-[---- 1.2 Problems Faced](https://github.com/renacin/WebDev/tree/main/PersonalWebsite#11-design-approach)                                                   | :construction_worker:
-[---- 1.3 Resources](https://github.com/renacin/WebDev/tree/main/PersonalWebsite#11-design-approach)                                                        | :construction_worker:
+[---- 1.2 Review Of Development](https://github.com/renacin/WebDev/tree/main/PersonalWebsite#11-design-approach)                                            | :construction_worker:
 
 <br/>
 
@@ -48,3 +47,11 @@ After a couple more edits here is what I have so far. Simple, and clean.
 <p align="center">
     <img src="https://github.com/renacin/WebDev/blob/main/PersonalWebsite/Images/Edit_3.jpg" width="800">
 </p>
+
+<br/>
+
+## 1.2 Review Of Development ##
+Having been my third or so attempt at Web-Development I knew the gist of creating a basic website. It wasn't too hard to lay out what I wanted in HTML, and rough out the general styling in CSS. However,
+there were areas that gave me some trouble; most of my frustrations were focused on properly centering elements, and making sure that text and images scaled properly.
+
+I think
