@@ -2,8 +2,8 @@
 Section  | Progress
 | :--- | ---:
 [1.0 General Overview of Project](https://github.com/renacin/WebDev/tree/main/PersonalWebsite#10-general-overview-of-project)                               |
-[---- 1.1 Design Approach](https://github.com/renacin/WebDev/tree/main/PersonalWebsite#11-design-approach)                                                  | :construction_worker:
-[---- 1.2 Review Of Development](https://github.com/renacin/WebDev/tree/main/PersonalWebsite#11-design-approach)                                            | :construction_worker:
+[---- 1.1 Design Approach](https://github.com/renacin/WebDev/tree/main/PersonalWebsite#11-design-approach)                                                  | :white_check_mark:
+[---- 1.2 Review Of Development](https://github.com/renacin/WebDev/tree/main/PersonalWebsite#11-design-approach)                                            | :white_check_mark:
 
 <br/>
 
