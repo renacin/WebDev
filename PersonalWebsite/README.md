@@ -62,7 +62,7 @@ Looking on the bright side, I learned a lot; and I feel more confident and inspi
 
 <br/>
 
-<h4 align="center">Main Page Edit #1</h4>
+<h4 align="center">Final Edit</h4>
 <p align="center">
     <img src="https://github.com/renacin/WebDev/blob/main/PersonalWebsite/Images/Final_1.JPG" width="800">
 </p>
