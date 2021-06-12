@@ -1,1 +1,57 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+/* -------------------------------------------------------------------------- */
+/* Apply Basic Styling To Main Elements, And Parent That Contains Elements Too Snap To*/
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+  font-size: 3em;
+  font-family: 'Oswald', sans-serif;
+}
+
+p {
+  font-size: 1em;
+  font-family: 'Quattrocento', serif;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Apply Basic Styling To Main Elements, And Parent That Contains Elements Too Snap To*/
+.scroll-container {
+  height: 100vh;
+  overflow-y: scroll;
+  -ms-scroll-snap-type: y proximity;
+      scroll-snap-type: y proximity;
+}
+
+section {
+  padding: 3em;
+  height: calc(100vh - 6em);
+  color: white;
+  scroll-snap-align: start;
+}
+
+section:nth-of-type(1) {
+  background: black;
+  background: -webkit-gradient(linear, left top, right top, from(#363636), color-stop(90%, #294a4a));
+  background: linear-gradient(90deg, #363636 0%, #294a4a 90%);
+}
+
+section:nth-of-type(2) {
+  background: black;
+  background: -webkit-gradient(linear, left top, right top, from(#363636), color-stop(90%, #294a4a));
+  background: linear-gradient(90deg, #363636 0%, #294a4a 90%);
+}
+
+section:nth-of-type(3) {
+  background: black;
+  background: -webkit-gradient(linear, left top, right top, from(#363636), color-stop(90%, #294a4a));
+  background: linear-gradient(90deg, #363636 0%, #294a4a 90%);
+}
+
+section:nth-of-type(4) {
+  background: black;
+  background: -webkit-gradient(linear, left top, right top, from(#363636), color-stop(90%, #294a4a));
+  background: linear-gradient(90deg, #363636 0%, #294a4a 90%);
+}
+/*# sourceMappingURL=style.css.map */
