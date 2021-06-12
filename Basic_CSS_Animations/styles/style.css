@@ -1,9 +1,97 @@
 /* -------------------------------------------------------------------------- */
-/* */
+/* Basic CSS Proprties */
 body {
-  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 4em;
+  color: white;
+  height: 100vh;
+  background-color: grey;
 }
 
 /* -------------------------------------------------------------------------- */
-/* */
+/* Main CSS Styling For Content*/
+.Parent {
+  background-color: #004466;
+  width: 400px;
+  height: 400px;
+}
+
+.Parent:hover .Child {
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+}
+
+.Child {
+  height: 50%;
+  width: 50%;
+  -webkit-animation: around_cube 2s ease-in-out 2 alternate 1s;
+          animation: around_cube 2s ease-in-out 2 alternate 1s;
+}
+
+/* -------------------------------------------------------------------------- */
+/* KeyFraming */
+@-webkit-keyframes around_cube {
+  0% {
+    opacity: 0%;
+    background-color: red;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  25% {
+    opacity: 100%;
+    background-color: orange;
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+  }
+  50% {
+    opacity: 100%;
+    background-color: red;
+    -webkit-transform: translateX(100%) translateY(100%);
+            transform: translateX(100%) translateY(100%);
+  }
+  75% {
+    opacity: 100%;
+    background-color: orange;
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+  }
+  100% {
+    opacity: 0%;
+    background-color: red;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+@keyframes around_cube {
+  0% {
+    opacity: 0%;
+    background-color: red;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  25% {
+    opacity: 100%;
+    background-color: orange;
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+  }
+  50% {
+    opacity: 100%;
+    background-color: red;
+    -webkit-transform: translateX(100%) translateY(100%);
+            transform: translateX(100%) translateY(100%);
+  }
+  75% {
+    opacity: 100%;
+    background-color: orange;
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+  }
+  100% {
+    opacity: 0%;
+    background-color: red;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
 /*# sourceMappingURL=style.css.map */

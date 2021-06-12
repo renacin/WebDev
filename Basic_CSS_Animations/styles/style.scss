@@ -1,10 +1,63 @@
   
 /* -------------------------------------------------------------------------- */
-/* */
+/* Basic CSS Proprties */
 body {
-    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 4em;
+    color: white;
+
+    height: 100vh;
+    background-color: grey;
 }
 
+/* -------------------------------------------------------------------------- */
+/* Main CSS Styling For Content*/
+.Parent {
+    background-color: hsla(200, 100%, 20%, 1);
+    width: 400px;
+    height: 400px;
+    &:hover .Child {
+        animation-play-state: running;
+    }
+}
+
+.Child {
+    height: 50%;
+    width: 50%;
+    animation: around_cube 2s ease-in-out 2 alternate 1s;
+}
 
 /* -------------------------------------------------------------------------- */
-/* */
+/* KeyFraming */
+
+@keyframes around_cube {
+    0% {
+        opacity: 0%;
+        background-color: red;
+        transform: translateX(0);
+    } 
+
+    25% {
+        opacity: 100%;
+        background-color: orange;
+        transform: translateY(100%);
+    } 
+
+    50% {
+        opacity: 100%;
+        background-color: red;
+        transform: translateX(100%) translateY(100%);
+    } 
+
+    75% {
+        opacity: 100%;
+        background-color: orange;
+        transform: translateX(100%);
+    } 
+
+    100% {
+        opacity: 0%;
+        background-color: red;
+        transform: translateX(0);
+    } 
+}
