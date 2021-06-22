@@ -1,0 +1,76 @@
+/* -------------------------------------------------------------------------- */
+/* Apply Basic Styling To Main Elements, And Parent That Contains Elements Too Snap To*/
+$border_stroke: 4px;
+$border_radius: 0.5em;
+
+
+/* -------------------------------------------------------------------------- */
+/* Apply Basic Styling To Main Elements, And Parent That Contains Elements Too Snap To*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    font-size: 3em;
+    font-family: 'Oswald', sans-serif;
+}
+
+p  {
+    font-size: 1em;
+    font-family: 'Quattrocento', serif;
+}
+
+
+/* -------------------------------------------------------------------------- */
+/* Apply Basic Styling To Main Elements, And Parent That Contains Elements Too Snap To*/
+
+.scroll-container {
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y proximity;
+  }
+
+  .desc_container {
+    display: block;
+    height: 80vh;
+
+    margin-left: 10%;
+    margin-right: 10%;
+
+    border: $border_stroke solid white;
+    border-radius: $border_radius;
+
+    padding:5em;
+  }
+
+  #title {
+    color: black;
+    border: $border_stroke solid black;
+  }
+  
+  section {
+    padding: 3em;
+    height: calc(100vh - 6em);
+    color: white;
+    scroll-snap-align: start;
+
+    &:nth-of-type(1) {
+        background: rgb(255,255,255);
+    }
+
+    &:nth-of-type(2) {
+        background: #eb6133;
+    }
+
+    &:nth-of-type(3) {
+        background: #1a1a1e;
+    }
+
+    &:nth-of-type(4) {
+        background: #808088;
+    }
+  }
+
+

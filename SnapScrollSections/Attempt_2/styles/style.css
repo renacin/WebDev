@@ -1,0 +1,67 @@
+/* -------------------------------------------------------------------------- */
+/* Apply Basic Styling To Main Elements, And Parent That Contains Elements Too Snap To*/
+/* -------------------------------------------------------------------------- */
+/* Apply Basic Styling To Main Elements, And Parent That Contains Elements Too Snap To*/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+  font-size: 3em;
+  font-family: 'Oswald', sans-serif;
+}
+
+p {
+  font-size: 1em;
+  font-family: 'Quattrocento', serif;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Apply Basic Styling To Main Elements, And Parent That Contains Elements Too Snap To*/
+.scroll-container {
+  height: 100vh;
+  overflow-y: scroll;
+  -ms-scroll-snap-type: y proximity;
+      scroll-snap-type: y proximity;
+}
+
+.desc_container {
+  display: block;
+  height: 80vh;
+  margin-left: 10%;
+  margin-right: 10%;
+  border: 4px solid white;
+  border-radius: 0.5em;
+  padding: 5em;
+}
+
+#title {
+  color: black;
+  border: 4px solid black;
+}
+
+section {
+  padding: 3em;
+  height: calc(100vh - 6em);
+  color: white;
+  scroll-snap-align: start;
+}
+
+section:nth-of-type(1) {
+  background: white;
+}
+
+section:nth-of-type(2) {
+  background: #eb6133;
+}
+
+section:nth-of-type(3) {
+  background: #1a1a1e;
+}
+
+section:nth-of-type(4) {
+  background: #808088;
+}
+/*# sourceMappingURL=style.css.map */
