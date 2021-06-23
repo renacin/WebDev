@@ -1,7 +1,10 @@
 /* -------------------------------------------------------------------------- */
 /* Apply Basic Styling To Main Elements, And Parent That Contains Elements Too Snap To*/
-$border_stroke: 4px;
+$border_stroke: 2px;
 $border_radius: 0.5em;
+
+$boxshadow_size: 10px;
+$boxshadow_blur: 10px;
 
 
 /* -------------------------------------------------------------------------- */
@@ -26,12 +29,14 @@ p  {
 /* -------------------------------------------------------------------------- */
 /* Apply Basic Styling To Main Elements, And Parent That Contains Elements Too Snap To*/
 
+
 .scroll-container {
     height: 100vh;
     overflow-y: scroll;
     scroll-snap-type: y proximity;
   }
 
+  
   .desc_container {
     display: block;
     height: 80vh;
@@ -43,13 +48,36 @@ p  {
     border-radius: $border_radius;
 
     padding:5em;
+
+    box-shadow: $boxshadow_size $boxshadow_size $boxshadow_blur white;
   }
+
+  .desc_container#title {
+    box-shadow: $boxshadow_size $boxshadow_size $boxshadow_blur black;
+  }
+
+  .subcontainer {
+      margin: 0 auto;
+      display: inline-block;
+      vertical-align: top;
+
+      height: 40vh;
+      width: 20vw;
+
+      padding: 10px;
+
+      border: $border_stroke solid white;
+      border-radius: $border_radius;
+  }
+
 
   #title {
     color: black;
+    background-color: white;
     border: $border_stroke solid black;
   }
-  
+
+
   section {
     padding: 3em;
     height: calc(100vh - 6em);
@@ -57,7 +85,7 @@ p  {
     scroll-snap-align: start;
 
     &:nth-of-type(1) {
-        background: rgb(255,255,255);
+        background: white;
     }
 
     &:nth-of-type(2) {
