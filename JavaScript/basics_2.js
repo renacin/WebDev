@@ -31,23 +31,47 @@
 			use lowercase!
 
 	Variable Data Types:
-		+ 
+		+ Every variable has a certain type
+		+ In JavaScript there are 8 data types:
+			- Number
+				+ Represents integers, floats, infinity, and NaN
+				+ No special rep, just numbers in console
+
+			- BigInt
+				+ For numbers larger than 9007199254740991, or smaller than -9007199254740991
+				we can make use of BigInts
+				+ To define a BigInt add an "n" at the end of your very larger interger
+
+			- String
+				+ Basic character representation. Use double quotes outside of characters to
+				define string
+				+ String formatting!
+					- Just like Python, JavaScript allows you to use string formatting
+					- Inside your backticks add the ${var} decorator around text
+
+			- Boolean
+				+ Covers true false logic
+				+ Can be the result of statement, or defined for a variable
+
+			- "Null"
+			- "Undefined"
+			- Object
+			- Symbol
 */
 
 // Create Some Variables | Use let & const
 const FIR_NAME = "Renacin",
-	SEC_NAME = "Matadeen";
+	LAS_NAME = "Matadeen";
 
 let age = 25,
-	car = "Toyota Corolla",
+	car = "Mazda3Sport",
 	city = "Brampton";
-
 
 //Create a function that will display a greeting message
 function welcome_msg(){
-    console.log("Hello my name is, " + FIR_NAME + " " + SEC_NAME);
-	console.log("I am currently " + age + " and currenlty drive a " + car)
-	console.log("I live in tge city of " + city)
+    console.log(`Hello my name is, ${FIR_NAME} ${LAS_NAME}`);
+	console.log(`I am currently ${age} and currenlty drive a ${car}`)
+	console.log(`I live in the city of ${city}`)
 };
 
 // Point Of Confusion, How Does JS Code Run?
