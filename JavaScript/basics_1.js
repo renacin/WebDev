@@ -1,4 +1,4 @@
-// Title: Learning Javascript - Basics
+// Title: Learning Javascript - Basics: History Of JavaScript
 // Date: 20/07/2021
 // Author: Renacin Matadeen
 //
