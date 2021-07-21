@@ -5,7 +5,7 @@
 //------------------------------------------------------------------------------
 /*
    !-- Notes --!
-   Following: https://javascript.info/intro
+   Following: https://javascript.info/types#objects-and-symbols
 
 	General Notes:
 		+ Statements are usually written on seperate lines, ended with a semicolon
