@@ -52,11 +52,24 @@
 			- Boolean
 				+ Covers true false logic
 				+ Can be the result of statement, or defined for a variable
+				+ Cover more in boolean logic section
 
 			- "Null"
+				+ is a value in of itself, represents nothing
+				+ use only for unknown variable
+
 			- "Undefined"
+				+ like the null variable undefined represents nothing
+				+ however unlike the null value, the undefined value is used more
+				as a placeholder, rather than an empty, or unknown value
+
 			- Object
-			- Symbol
+				+ All other objects and variables store a single type of data.
+				the object data type is unique as it can store a collection of
+				unique/complex entities
+				+ Are very similar to python's dictionary datatypes
+				+ Defined using the {} construct
+
 */
 
 // Create Some Variables | Use let & const
@@ -65,13 +78,29 @@ const FIR_NAME = "Renacin",
 
 let age = 25,
 	car = "Mazda3Sport",
-	city = "Brampton";
+	city = "Brampton",
+	job = undefined;
+
+let car_1 = {
+	name: "Mazda3",
+	price: 12000.00,
+	horspower: 130,
+	weight: 1800
+};
+
+let car_2 = {
+	name: "BRZ",
+	price: 15000.00,
+	horspower: 180,
+	weight: 1500
+};
 
 //Create a function that will display a greeting message
 function welcome_msg(){
     console.log(`Hello my name is, ${FIR_NAME} ${LAS_NAME}`);
 	console.log(`I am currently ${age} and currenlty drive a ${car}`)
-	console.log(`I live in the city of ${city}`)
+	console.log(`I live in the city of ${city}, and work @${job}`)
+	console.log(car_2)
 };
 
 // Point Of Confusion, How Does JS Code Run?
