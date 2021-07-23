@@ -18,7 +18,27 @@
 		+ Exponent:        **
 		+ Modulus:         %
 
-		
+	Modify-In-Place:
+		+ Add              +=
+		+ Subtract         -=
+		+ Multiply         *=
+		+ Divide           /=
+
+	Increment/Decrement:
+		+ Add 1            ++
+		+ Subtract 1       --
+
+	CAUTION:
+		+ Remember, string concatination works with string representations of numbers
+		+ Use unary+ number conversion before string variables to add string numbers
+			Ex:
+				-> "2" + "2"    = "22"
+				-> "2" * "2"    =  4
+				-> +"2" + +"22" = 24
+
+		+ When Incrementing/Decrementing be careful of where you add aditional
+		characters. If anything always use sufix styling: counter++ with an additional
+		line for processing
 
 */
 
