@@ -33,6 +33,10 @@
 	Variable Data Types:
 		+ Every variable has a certain type
 		+ In JavaScript there are 8 data types:
+			- Arrays
+				+ Similar to python lists
+				+ let x = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
 			- Number
 				+ Represents integers, floats, infinity, and NaN
 				+ No special rep, just numbers in console
