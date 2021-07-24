@@ -8,7 +8,18 @@
    Following: https://javascript.info/operators
 
 	Conditonal Flow:
-		+
+		+ All events follow some flow of logic. If this than that; if that
+		then this. Programming takes this proceding and scales it to encompass a
+		wide range of inputs and outputs all.
+		+ Programmers use conditional branching to dictate the flow of logic within
+		their code.
+
+	If Branching:
+		+ If a condition is met, the contained code is executed, if it isn't the
+		encapsulated code block is disregarded and code continues
+		+ Code is executed if the condition is true
+
+		+ if (condition) {execute code}
 
 	CAUTION:
 		+ Can add additional functionality within conditions, make use of:
