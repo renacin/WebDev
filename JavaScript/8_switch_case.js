@@ -33,18 +33,51 @@
 			}
 
 	CAUTION:
-		+
+		+ You need a break statement in your switch-case tree. Need an exit
 */
 
 //------------------------------------------------------------------------------
 //Create a function that will loop through an array
-function basic_loop(username){
+function basic_loop(test_score){
 
-	continue;
+	switch (true) {
+
+		// Test Score 0 - 49
+		case (+test_score >= 0 && +test_score <= 49):
+			console.log(`Grade: F, Score: ${test_score}/100`);
+			break;
+
+		// Test Score 50 - 69
+		case (+test_score >= 50 && +test_score <= 59):
+			console.log(`Grade: D, Score: ${test_score}/100`);
+			break;
+
+		// Test Score 60 - 69
+		case (+test_score >= 60 && +test_score <= 69):
+			console.log(`Grade: C, Score: ${test_score}/100`);
+			break;
+
+		// Test Score 70 - 79
+		case (+test_score >= 70 && +test_score <= 79):
+			console.log(`Grade: B, Score: ${test_score}/100`);
+			break;
+
+		// Test Score 80 +
+		case (+test_score >= 80):
+			console.log(`Grade: F, Score: ${test_score}/100`);
+			break;
+
+		// Fall-Back
+		case (test_score === "n/a"):
+		default:
+			console.log("Please Input Valid Test Score!");
+			break;
+
+	};
 };
 
 //------------------------------------------------------------------------------
 
 // Does JavaScript Have An Entry Point?
-let user_name = prompt("Username: ", "");
-basic_loop(user_name);
+let test_score = prompt("Test Score: ", "n/a");
+basic_loop(test_score);
