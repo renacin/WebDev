@@ -1,4 +1,4 @@
-// Title: Learning Javascript - Basics: Switch-Case
+// Title: Learning Javascript - Basics: Functions
 // Date: 26/07/2021
 // Author: Renacin Matadeen
 //
@@ -39,7 +39,7 @@
 
 //------------------------------------------------------------------------------
 //Create a function that will print the date as a formatted string
-function getCurDate(){
+function getCurDate() {
 	let formattedDate = undefined;
 	let currentDate = new Date();
 
@@ -50,11 +50,23 @@ function getCurDate(){
 	cDay = cDay < 10 ? `0${cDay}`: cDay;
 	cMonth = cMonth < 10 ? `0${cMonth}`: cMonth;
 
-	return `[${cMonth}-${cDay}-${cYear}]`
+	return `${cMonth}-${cDay}-${cYear}`
+};
+
+
+function splitDate(curDate) {
+
+	let d_names = ["Month", "Day", "Year"];
+	let d_array = curDate.split("-");
+
+	for (let x in d_array) {
+		console.log(`${d_names[x]}: ${d_array[x]}`);
+	};
 };
 
 //------------------------------------------------------------------------------
 
 // Does JavaScript Have An Entry Point?
 let date = getCurDate();
-console.log(`Current Date: ${date}`)
+console.log(`Current Date: ${date}`);
+splitDate(date);
