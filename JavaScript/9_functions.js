@@ -38,12 +38,23 @@
 */
 
 //------------------------------------------------------------------------------
-//Create a function that will loop through an array
-function basic_func(){
-	continue;
+//Create a function that will print the date as a formatted string
+function getCurDate(){
+	let formattedDate = undefined;
+	let currentDate = new Date();
+
+	let cDay = currentDate.getDate();
+	let cMonth = currentDate.getMonth() + 1;
+	let cYear = currentDate.getFullYear()
+
+	cDay = cDay < 10 ? `0${cDay}`: cDay;
+	cMonth = cMonth < 10 ? `0${cMonth}`: cMonth;
+
+	return `[${cMonth}-${cDay}-${cYear}]`
 };
 
 //------------------------------------------------------------------------------
 
 // Does JavaScript Have An Entry Point?
-basic_func();
+let date = getCurDate();
+console.log(`Current Date: ${date}`)
