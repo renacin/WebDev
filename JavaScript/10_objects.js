@@ -1,4 +1,4 @@
-// Title: Learning Javascript - Basics: Classes
+// Title: Learning Javascript - Basics: Objects
 // Date: 27/07/2021
 // Author: Renacin Matadeen
 //
@@ -8,8 +8,11 @@
    Following: https://javascript.info/function-basics
 
 
-	Classes:
-		+
+	Objects:
+		+ In JavaScript primitive data types contain only one type of variable.
+		+ Objects, break that norm by allowing users to stored key-collections of
+		varing data types.
+		+ Objects are very similar to Python's dictionary data type- Hash Tables?
 
 
 	CAUTION:
