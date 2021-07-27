@@ -26,7 +26,7 @@
 //------------------------------------------------------------------------------
 //Create a function that will print the date as a formatted string
 function crawlEmpProp(emp) {
-	console.log(`Employee Name: ${emp.firstname}`);
+	console.log(`Employee Name: ${emp["firstname"]}`);
 };
 
 //------------------------------------------------------------------------------
@@ -50,7 +50,10 @@ let emp_2 = {
 	salary: 80000
 };
 
-let emp_list = [emp_1, emp_2];
+let emp_list = new Array(emp_1, emp_2);
+
+console.log(`Num Employees: ${emp_list.lenght}`);
+
 for (let i = 0; i < emp_list.length; i++){
 	crawlEmpProp(emp_list[i]);
 };
