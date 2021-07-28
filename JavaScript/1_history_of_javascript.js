@@ -51,4 +51,9 @@ function welcome_msg(){
 
 // Point Of Confusion, How Does JS Code Run?
 welcome_msg();
-alert("Script Complete!");
+alert("Script Complete! This is just a test.");
+
+
+
+
+
