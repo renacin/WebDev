@@ -46,7 +46,7 @@
 //------------------------------------------------------------------------------
 
 // Create a template that will act as an Object Constructor for User objects
-function User(firstname, lastname, email, department, salary, performance=0.5) {
+function User(firstname, lastname, email, department, salary, perform, years_worked) {
 
 	// Object Properties
 	this.firstname = firstname;
@@ -55,7 +55,8 @@ function User(firstname, lastname, email, department, salary, performance=0.5) {
 
 	this.department = department;
 	this.salary = salary;
-	this.performance = performance;
+	this.perform = perform;
+	this.years_worked = years_worked;
 };
 
 // Object Methods
@@ -64,7 +65,7 @@ User.prototype.fullname = function() {
 };
 
 User.prototype.calcBonus = function() {
-	let bonus = +this.salary * (+this.performance * 0.025);
+	let bonus = +this.salary * (+this.perform * (0.025 * (+this.years_worked/35)));
 	let rounded_bonus = Math.round(bonus)
 	return `${rounded_bonus}`;
 };
@@ -79,9 +80,9 @@ function displayEmpInfo(emp) {
 //------------------------------------------------------------------------------
 
 // Does JavaScript Have An Entry Point?
-const emp_1 = new User("Bob", "Ross", "bross@gmail.com", "Mechanical", 50000, 0.90);
-const emp_2 = new User("David", "Smith", "dsmith@gmail.com", "IT", 80000, 0.70);
-const emp_3 = new User("Barbara", "Kane", "bkane@gmail.com", "Management", 100000, 0.50);
+const emp_1 = new User("Bob", "Ross", "bross@gmail.com", "Mechanical", 50000, 0.90, 20);
+const emp_2 = new User("David", "Smith", "dsmith@gmail.com", "IT", 80000, 0.70, 8);
+const emp_3 = new User("Barbara", "Kane", "bkane@gmail.com", "Management", 100000, 0.50, 10);
 
 let emp_list = new Array(emp_1, emp_2, emp_3);
 
