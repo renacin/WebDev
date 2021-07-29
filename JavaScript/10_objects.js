@@ -73,6 +73,9 @@
 		};
 
 		+ Object properties are ordered, don't rely on order to query code.
+		+ If variables are intergers, and order is important add a symbol in
+		front and turn it into a string.
+		
 */
 
 
