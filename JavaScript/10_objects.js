@@ -14,6 +14,16 @@
 		varing data types.
 		+ Objects are very similar to classes in python. Instances of objects can
 		have properties, as well as methods!
+		+ Object keys can be multi-word:
+
+
+		+ BASIC SYNTAX:
+			let var_dict = {
+				lat = [],
+				long = [],
+				speed = [],
+			};
+
 
 	Object Constructors:
 		+ Instead of manually creating ojects via the object definition method,
@@ -23,7 +33,8 @@
 		+ Remember, in addition to properties, objects can also have methods attached
 		to them
 
-		Basic Syntax:
+
+		BASIC SYNTAX:
 		function Template(var1, var2, var3){
 
 			// These are the objects properties
@@ -32,7 +43,10 @@
 			this.var3 = var3;
 
 			// These are the methods attached to the objects
+		};
 
+		Template.prototype.FUNCTION_NAME = function() {
+			return `${this.TEMPLATE_VAR_1} ${this.TEMPLATE_VAR_2}`;
 		};
 
 
@@ -45,7 +59,22 @@
 		+ REMEMBER THE DIFFERENCE BETWEEN OBJECTS AS DICTIONARIES AND CLASSES
 			- Used as a dictionary, needs the : to set ket to value
 			- Used as a class template, needs the this.name & = to set value to property
+
+		+ Use square bracket notation to refer to a instances property
+
+		+ You can check to see if a key is inside an object. Use the following
+		syntax:
+			let check_key = key in user_object_1; //Returns True
+
+		+ iterating through objects:
+		for (let key in object) {
+			console.log(key);
+			console.log(object[key]);
+		};
+
+		+ Object properties are ordered, don't rely on order to query code.
 */
+
 
 //------------------------------------------------------------------------------
 
