@@ -41,6 +41,10 @@
 		However, the concept of true classes does not exist in JavaScript.
 		Use objects as a bridge!
 		+ Javascript has built in objects, like date, and math
+
+		+ REMEMBER THE DIFFERENCE BETWEEN OBJECTS AS DICTIONARIES AND CLASSES
+			- Used as a dictionary, needs the : to set ket to value
+			- Used as a class template, needs the this.name & = to set value to property
 */
 
 //------------------------------------------------------------------------------
