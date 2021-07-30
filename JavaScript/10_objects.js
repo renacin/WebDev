@@ -43,11 +43,12 @@
 			this.var3 = var3;
 
 			// These are the methods attached to the objects
+			this.FUNCTION_NAME = function() {
+				return `${this.TEMPLATE_VAR_1} ${this.TEMPLATE_VAR_2}`;
+			};
 		};
 
-		Template.prototype.FUNCTION_NAME = function() {
-			return `${this.TEMPLATE_VAR_1} ${this.TEMPLATE_VAR_2}`;
-		};
+
 
 
 	CAUTION:
@@ -75,7 +76,7 @@
 		+ Object properties are ordered, don't rely on order to query code.
 		+ If variables are intergers, and order is important add a symbol in
 		front and turn it into a string.
-		
+
 */
 
 
@@ -93,17 +94,17 @@ function User(firstname, lastname, email, department, salary, perform, years_wor
 	this.salary = salary;
 	this.perform = perform;
 	this.years_worked = years_worked;
-};
 
-// Object Methods
-User.prototype.fullname = function() {
-	return `${this.firstname} ${this.lastname}`;
-};
+	// Object Methods
+	this.fullname = function() {
+		return `${this.firstname} ${this.lastname}`;
+	};
 
-User.prototype.calcBonus = function() {
-	let bonus = +this.salary * (+this.perform * (0.025 * (+this.years_worked/35)));
-	let rounded_bonus = Math.round(bonus)
-	return `${rounded_bonus}`;
+	this.calcBonus = function() {
+		let bonus = +this.salary * (+this.perform * (0.50 * (+this.years_worked/35)));
+		let rounded_bonus = Math.round(bonus)
+		return `${rounded_bonus}`;
+	};
 };
 
 
