@@ -5,7 +5,7 @@
 //------------------------------------------------------------------------------
 /*
    !-- Notes --!
-   Following: https://javascript.info/function-basics
+   Following: https://javascript.info/object-basics
 
 
 	Objects:
