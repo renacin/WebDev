@@ -120,8 +120,9 @@ function displayEmpInfo(emp) {
 const emp_1 = new User("Bob", "Ross", "bross@gmail.com", "Mechanical", 50000, 0.90, 20);
 const emp_2 = new User("David", "Smith", "dsmith@gmail.com", "IT", 80000, 0.70, 8);
 const emp_3 = new User("Barbara", "Kane", "bkane@gmail.com", "Management", 100000, 0.50, 10);
+const emp_4 = new User("Steve", "Timmu", "stimmu@gmail.com", "CEO", 150000, 0.50, 35);
 
-let emp_list = new Array(emp_1, emp_2, emp_3);
+let emp_list = new Array(emp_1, emp_2, emp_3, emp_4);
 
 // Loop through all employees in array
 for (let i = 0; i < emp_list.length; i++){
