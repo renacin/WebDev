@@ -21,7 +21,7 @@
 		made to the copy will result in changes to the original
 
 		+ In other words:
-
+		Ex:
 			let message_1 = "Hello";
 			message_2 = message_1;
 
@@ -33,6 +33,22 @@
 			console.log(user.name); || 'Pete'
 
 			When the duplicate is changed so is the original
+
+		+ If you need a clone of an object, but don't want to reference/edit the
+		original you can create an independent copy. There is no easy way to do this
+		in javascript so you have to loop through the entire object and copy its
+		features
+		Ex:
+			let user = {
+				name: "John",
+				age: 20,
+			};
+
+			let clone = {};
+
+			for (let key in user) {
+				clone[key] = user[key];
+			};
 
 
 	CAUTION:
