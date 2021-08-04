@@ -19,12 +19,13 @@
 		the same problem
 
 	Memory Allocation:
-		+ 
-
-	CAUTION:
 		+
 
-
+	CAUTION:
+		+ Garbage collection helps users write code quicker, more efficiently, and
+		helps prevent memory leaks. However it is a process that runs in the background,
+		constantly checking your code. Code with automatic GC will run slower
+		than code without automatic GC.
 
 */
 
