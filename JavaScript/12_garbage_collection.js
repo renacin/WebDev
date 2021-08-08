@@ -57,6 +57,15 @@
 
 	Code Reachability: interlinked Objects
 		+ More complex objects require a bit more thought
+		+ In the case where objects are linked to multiple other objects (in both
+		ways) we must be extra cautious when deleting items as unreachable items
+		are likely to occur.
+		+ As another point of confusion, outgoing references don't need to be deleted
+		as they themselves are unreachable
+
+		+ THE UNREACHABLE ISLAND
+			- An entire object can be filled with may properties and sub-objects
+			the entire object can become unreachable if the main reference is lost
 
 
 
@@ -65,6 +74,10 @@
 		helps prevent memory leaks. However it is a process that runs in the background,
 		constantly checking your code. Code with automatic GC will run slower
 		than code without automatic GC.
+
+		+ JavaScript takes good care of the user and makes GC really easy, and something
+		that the average user doesn't have to worry about. However, in languages
+		closer to metal, GC is very important - and learning the nuances is very important!
 
 */
 
