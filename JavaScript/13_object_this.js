@@ -72,15 +72,38 @@
 
 //------------------------------------------------------------------------------
 
-//Create a basic function	
-let person_1 = {
-	name: "Renacin",
-	age: 25,
-	location: "Toronto",
+// Create a basic function that shows the movement of a character on a
+// cartesian plane
 
-	sendGreetings () {
-		console.log(`Hello my name is ${this.name}, and I currently live in ${this.location}`);
-	}
+let character = {
+	name: "Renacin",
+	x_loc: 0,
+	y_loc: 0,
+	num_steps: 0,
+
+	moveLeft () {
+		this.x_loc--;
+		this.num_steps ++;
+		console.log(`${this.name} moved left. Current location [X: ${this.x_loc}, Y: ${this.y_loc}, Steps: ${this.num_steps}]`);
+	},
+
+	moveRight () {
+		this.x_loc++;
+		this.num_steps ++;
+		console.log(`${this.name} moved Right. Current location [X: ${this.x_loc}, Y: ${this.y_loc}, Steps: ${this.num_steps}]`);
+	},
+
+	moveUp () {
+		this.y_loc++;
+		this.num_steps ++;
+		console.log(`${this.name} moved Up. Current location [X: ${this.x_loc}, Y: ${this.y_loc}, Steps: ${this.num_steps}]`);
+	},
+
+	moveDown () {
+		this.y_loc--;
+		this.num_steps ++;
+		console.log(`${this.name} moved Down. Current location [X: ${this.x_loc}, Y: ${this.y_loc}, Steps: ${this.num_steps}]`);
+	},
 };
 
 
@@ -88,4 +111,11 @@ let person_1 = {
 //------------------------------------------------------------------------------
 
 // Does JavaScript Have An Entry Point?
-person_1.sendGreetings();
+character.moveDown();
+character.moveDown();
+character.moveLeft();
+character.moveDown();
+character.moveRight();
+character.moveDown();
+character.moveUp();
+character.moveDown();
