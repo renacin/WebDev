@@ -9,6 +9,11 @@
 
 
 	Using "This" With Objects
+		+ Remember you can create objects as single instances, or you can make use 
+		of templates with object constructors. In this case we will be focusing on
+		single instances of objects.
+
+		+ As a reminder, objects represent 
 
 	CAUTION:
 		+
