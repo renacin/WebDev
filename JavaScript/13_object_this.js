@@ -2,7 +2,7 @@
 // Date: 10/08/2021
 // Author: Renacin Matadeen
 //
-//------------------------------------------------------------------------------
+//-----------------------------------------------------------------------------
 /*
    !-- Notes --!
    Following: https://javascript.info/object-methods
@@ -70,39 +70,50 @@
 */
 
 
-//------------------------------------------------------------------------------
+//-----------------------------------------------------------------------------
 
 // Create a basic function that shows the movement of a character on a
 // cartesian plane
 
 let character = {
+	// --------------- Basic Properties Of Object -----------------------------
 	name: "Renacin",
 	x_loc: 0,
 	y_loc: 0,
 	num_steps: 0,
+	loc_hist: [`[0, 0]`],
 
+
+	// ------------------- Basic Methods Of Object ----------------------------
+	// Movement Methods
 	moveLeft () {
 		this.x_loc--;
 		this.num_steps ++;
-		console.log(`${this.name} moved left. Current location [X: ${this.x_loc}, Y: ${this.y_loc}, Steps: ${this.num_steps}]`);
+		this.loc_hist.push(`[${this.x_loc}, ${this.y_loc}]`);
 	},
-
 	moveRight () {
 		this.x_loc++;
 		this.num_steps ++;
-		console.log(`${this.name} moved Right. Current location [X: ${this.x_loc}, Y: ${this.y_loc}, Steps: ${this.num_steps}]`);
+		this.loc_hist.push(`[${this.x_loc}, ${this.y_loc}]`);
 	},
-
 	moveUp () {
 		this.y_loc++;
 		this.num_steps ++;
-		console.log(`${this.name} moved Up. Current location [X: ${this.x_loc}, Y: ${this.y_loc}, Steps: ${this.num_steps}]`);
+		this.loc_hist.push(`[${this.x_loc}, ${this.y_loc}]`);
 	},
-
 	moveDown () {
 		this.y_loc--;
 		this.num_steps ++;
-		console.log(`${this.name} moved Down. Current location [X: ${this.x_loc}, Y: ${this.y_loc}, Steps: ${this.num_steps}]`);
+		this.loc_hist.push(`[${this.x_loc}, ${this.y_loc}]`);
+	},
+
+	// Display Character Information
+	printLocHist () {
+		console.log(`${this.name}'s Location History: ${this.loc_hist}`);
+	},
+
+	printNumSteps () {
+		console.log(`Number Of Steps: ${this.num_steps}`);
 	},
 };
 
@@ -110,7 +121,7 @@ let character = {
 
 //------------------------------------------------------------------------------
 
-// Does JavaScript Have An Entry Point?
+// Move Character Around
 character.moveDown();
 character.moveDown();
 character.moveLeft();
@@ -119,3 +130,7 @@ character.moveRight();
 character.moveDown();
 character.moveUp();
 character.moveDown();
+
+// Print Basic Movement Information
+character.printLocHist();
+character.printNumSteps();
