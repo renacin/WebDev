@@ -32,7 +32,7 @@
 			};
 
 		+ Once you have defined your constructor function you can create a new instance
-		of your template object by using the "new" keeyword with a unique name for that
+		of your template object by using the "new" keyword with a unique name for that
 		new instance
 
 		BASIC SYNTAX:
@@ -40,7 +40,8 @@
 
 
 	CAUTION:
-		+ 
+		+ You can ommit parentheses when defining a constructor function if the
+		function doesn't take any parametres
 
 
 */
@@ -69,4 +70,3 @@ let student_3 = new Student("Debbie", 30, "Halton");
 let all_students = [student_1, student_2, student_3];
 
 // Loop through all students & print basic stats
-
