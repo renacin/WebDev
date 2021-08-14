@@ -54,8 +54,31 @@
 				let str_1 = "Hello world world";
 				let x = str_1.indexOf("world");			// returns 12
 
-			
-				 
+
+			matchAll(RegExp):
+				+ Search a string for a match using specified regular expression
+				
+				let str_1 = "The rain in SPAIN stays mainly in the plain";
+				let x = str_1.matchAll(/.ain/gi);		// returns ["ain", "AIN", "ain", "ain"]
+
+				+ NOTES:
+					- regex pattern must be stored within "/" backslashes, and must contain
+					a flag
+
+					- /xxx/g means look at all match cases instead of just thee first
+					- /xxx/i means search will be case insensitive
+					- /xxx/m means perform a multiline search
+					- /xxx/x ignore whitespace
+
+			replace(searchValue, replaceValue):
+				+ Search specified string value and replace with specified replace
+				Value string and return new string. Regular expression can also be used
+				as searchValue
+
+				let str_1 = "Hello world world";
+				let x = str_1.replace("world", "World");		// returns "Hello World World"
+				let x = str_1.reeplace(/world/gi, "World") 
+
 
 	CAUTION:
 		+
