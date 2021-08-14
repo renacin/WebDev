@@ -70,6 +70,7 @@
 					- /xxx/m means perform a multiline search
 					- /xxx/x ignore whitespace
 
+
 			replace(searchValue, replaceValue):
 				+ Search specified string value and replace with specified replace
 				Value string and return new string. Regular expression can also be used
@@ -77,11 +78,39 @@
 
 				let str_1 = "Hello world world";
 				let x = str_1.replace("world", "World");		// returns "Hello World World"
-				let x = str_1.reeplace(/world/gi, "World") 
+				let x = str_1.replace(/world/gi, "World")
 
 
-	CAUTION:
-		+
+			silce(start_idx, end_idx):
+				+ Extracts a section of a string based on specified starting and ending index
+				and returns a new string.
+
+				let str_1 = "Hello world world";
+				let x = str_1.slice(6, 16);						// returns "world world"
+
+
+			split(separatorString, limitNumber):
+				+ method splits a string into an array of substrings, and returns the new array.
+				If an empty string ("") is used as the separator, the string is split between each
+				character
+
+				let str_1 = "Hello world world";
+				let x = str_1.split(" ");						// returns ["Hello", "World", "World"]
+
+
+			toLowerCase():
+			+ Returns lower case string value.
+			
+			let str_1 = "Hello world";
+			let x = str_1.toLowerCase(0);						// returns "hello world"
+
+			
+			toUpperCase():
+			+ Returns upper  case string value.
+			
+			let str_1 = "Hello world";
+			let x = str_1.toUpperCase(0);						// returns "HELLO WORLD"
+
 
 	ADDITIONAL LINKS:
 		+ String Methods --> https://www.tutorialsteacher.com/javascript/javascript-string-methods-and-property
