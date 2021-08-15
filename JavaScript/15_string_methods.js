@@ -81,7 +81,7 @@
 				let x = str_1.replace(/world/gi, "World")
 
 
-			silce(start_idx, end_idx):
+			slice(start_idx, end_idx):
 				+ Extracts a section of a string based on specified starting and ending index
 				and returns a new string.
 
@@ -99,10 +99,10 @@
 
 
 			toLowerCase():
-			+ Returns lower case string value.
+				+ Returns lower case string value.
 			
-			let str_1 = "Hello world";
-			let x = str_1.toLowerCase(0);						// returns "hello world"
+				let str_1 = "Hello world";
+				let x = str_1.toLowerCase(0);					// returns "hello world"
 
 			
 			toUpperCase():
