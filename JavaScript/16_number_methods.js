@@ -67,10 +67,15 @@
             parseInt():
                 + Parses the first observation of a number within a string input
 
-                let str_1 = "";
-				let x = num_1.toPrecision(4);			// returns "35.03"
+                let str_1 = "1293234@test.com";
+				let x = parseInt(str_1);			    // returns "1293234"
 
 
+            parseFloat():
+                + Parses the first observation of a number within a string input
+
+                let str_1 = "1293234.232 Value Of";
+				let x = parseFloat(str_1);			    // returns "1293234.232"
 
 
 
