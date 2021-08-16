@@ -18,6 +18,7 @@
 		most data types are just classes in of themselves
 
 
+
 		Commonly Used Array Methods:
 
 			.join(Join String Element)
@@ -39,6 +40,15 @@
             // returns "Mango"
 
 
+            .shift()
+            + Removes the first element from the list, and returns it as a output
+
+            let fruits = ["Banana", "Orange", "Apple", "Mango"];
+            let str_1 = fruits.shift();
+
+            // returns "Banana"
+
+
 			.push(Value To Add)
             + Adds a primitive to the end of the list, and returns the total lenght
             of the array to the user 
@@ -46,7 +56,56 @@
             let fruits = ["Banana", "Orange", "Apple", "Mango"];
             let new_lenght = fruits.push("Cherry");
 
-            // returns 5 
+            // returns 5
+
+
+            .unshift(Value To Add)
+            + Adds a primitive to the begining of the list, and returns the total lenght
+            of the array to the user 
+
+            let fruits = ["Banana", "Orange", "Apple", "Mango"];
+            let new_lenght = fruits.unshift("Cherry");
+
+            // returns 5
+
+
+
+            Manually Changing Elements:
+
+            List Indexing
+            + You can manually change an entry within a list by setting its index in the list
+            to your desired value
+
+            let fruits = ["Banana", "Orange", "Apple", "Mango"];
+            fruits[0] = "Kiwi"      // New list ["Kiwi", "Orange", "Apple", "Mango"]
+
+            Use the lenght of an array as an index to easily add values to the end of an array
+
+            let fruits = ["Banana", "Orange", "Apple", "Mango"];
+            fruits[fruits.lenght] = "Kiwi"      // New list ["Kiwi", "Orange", "Apple", "Mango"]
+
+
+
+            Deleting Array Items:
+            
+            Since arrays are objects in Javascript you can use the builtin delete keyword in
+            your code to delete certain elements within an array.
+
+            let fruits = ["Banana", "Orange", "Apple", "Mango"];
+            delete fruits[0]        // [undefined, "Orange", "Apple", "Mango"];
+
+            However in using the delete keyword an undefined placeholder replaces the element that
+            you removed. In order to prevent holes in your arrays use the pop, or shift methods
+            within Javascript
+
+            let fruits = ["Banana", "Orange", "Apple", "Mango"];
+            fruits.shift();         // ["Orange", "Apple", "Mango"];
+
+
+
+            Slicing An Array
+
+
 
 
 
