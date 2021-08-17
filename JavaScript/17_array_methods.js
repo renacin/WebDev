@@ -103,8 +103,45 @@
 
 
 
+            Splicing An Array
+            
+            There are cases where one would want to add objects at different places in an array.
+            The splicing method gives users the ability to do such a thing.
+            Note that the splicing method takes 3 parametres, and splice returns an array with the
+            deleted elements.
+
+            .splice(Where to insert values, how many values to remove, the elements to add to the array)
+            
+            let fruits = ["Banana", "Orange", "Apple", "Mango"];
+            fruits.splice(1, 0, Tomato, Starfruit);                        // ["Banana", "Tomato", "Starfruit", "Orange", "Apple", "Mango"];
+
+            let fruits = ["Banana", "Orange", "Apple", "Mango"];
+            let del_items = fruits.splice(0, 1);                           // ["Orange", "Apple", "Mango"] returns "Banana"
+
+            let fruits = ["Banana", "Orange", "Apple", "Mango"];
+            let del_items = fruits.splice(0, (fruits.lenght - 1));         // ["Orange", "Apple", "Mango"] returns "Banana"
+
+
+            
+            Concatinating Arrays
+
+            Javascript also provides an easy way to combine arrays useing the .concat method.
+
+            .concat(array to join)
+            
+            let fruits_1 = ["Banana", "Orange"];
+            let fruits_2 = ["Apple", "Mango"];
+            fruits_1.concat(fruits_2);                        // ["Banana", "Orange", "Apple", "Mango"];
+
+            Note:
+            concat() can take as many arrays as you need to join. Additionally it can take a single entry to join to an array.
+
+            
+
             Slicing An Array
 
+            Like Python, Javascript allows you to create subsets of an array. In this case however you don't use
+            list indexing, rather an array method with defined parametres.
 
 
 
