@@ -179,11 +179,38 @@
 
 
 
+        //---------------------------------------------------------------------
+        Sorting Arrays With Numeric Values
 
+            As mentioned before JavaScript does not provide a builtin way for users to sort an array. Instead users must be
+            creative and make use of additional JavaScript functionality to get the usability that they desire.
 
+            One method to achieve this is a compare function within the sort method.
+            Here you can see that we still make use of the sort function but inside we define a function that takes two
+            parametres.
 
+            let points = [40, 100, 1, 5, 25, 10];
+            let sorted_points = points.sort(function(a, b){return a - b});
 
+            The compare function should return a negative, zero, or positive value, depending on the arguments:
+            When the sort() function compares two values, it sends the values to the compare function, and sorts the values 
+            according to the returned (negative, zero, positive) value.
+            If the result is negative a is sorted before b.
+            If the result is positive b is sorted before a.
+            If the result is 0 no changes are done with the sort order of the two values.
 
+            The compare function is just the main logic. The sort() method is the main point of iteration
+
+            An easier way:
+
+            let points = [40, 100, 1, 5, 25, 10];
+            let min_points = Math.min.apply(null, points);
+
+            let points = [40, 100, 1, 5, 25, 10];
+            let max_points = Math.max.apply(null, points);
+
+            Note:
+            Grab the highest & lowest value by using array indexing. array[0] = lowest, array[array.lenght - 1] = highest
 
 
 
