@@ -18,7 +18,7 @@
 		most data types are just classes in of themselves
 
 
-
+        //---------------------------------------------------------------------
 		Commonly Used Array Methods:
 
 			.join(Join String Element)
@@ -70,7 +70,8 @@
 
 
 
-            Manually Changing Elements:
+        //---------------------------------------------------------------------
+        Manually Changing Elements:
 
             List Indexing
             + You can manually change an entry within a list by setting its index in the list
@@ -86,7 +87,8 @@
 
 
 
-            Deleting Array Items:
+        //---------------------------------------------------------------------
+        Deleting Array Items:
             
             Since arrays are objects in Javascript you can use the builtin delete keyword in
             your code to delete certain elements within an array.
@@ -103,7 +105,8 @@
 
 
 
-            Splicing An Array
+        //---------------------------------------------------------------------
+        Splicing An Array
             
             There are cases where one would want to add objects at different places in an array.
             The splicing method gives users the ability to do such a thing.
@@ -122,8 +125,8 @@
             let del_items = fruits.splice(0, (fruits.lenght - 1));         // ["Orange", "Apple", "Mango"] returns "Banana"
 
 
-            
-            Concatinating Arrays
+        //---------------------------------------------------------------------
+        Concatinating Arrays
 
             Javascript also provides an easy way to combine arrays useing the .concat method.
 
@@ -136,12 +139,50 @@
             Note:
             concat() can take as many arrays as you need to join. Additionally it can take a single entry to join to an array.
 
-            
 
-            Slicing An Array
+
+        //---------------------------------------------------------------------
+        Slicing An Array
 
             Like Python, Javascript allows you to create subsets of an array. In this case however you don't use
             list indexing, rather an array method with defined parametres.
+
+            .slice(begin, end)
+            let fruits = ["Banana", "Orange", "Lemon" "Apple", "Mango"];
+            let citrus = fruits.slice(1, 2);                  // ["Orange" "Lemon"];
+
+            Note:
+            slice() can take one or two arguements. In the case of a single arguement you want just one value based on the index
+            value provide. In case of two, then you want all elements between the first parametre, and second. 
+
+
+        //---------------------------------------------------------------------
+        Sorting Arrays With Non-Numeric Values
+
+            In languages like Python, arrays have builtin methods that make sorting easy. Javascript unfortunately does not
+            have builtins like this. 
+
+            .sort()
+            This builtin method can only be used on string inputs. And will sort values in an array based on alphabetical
+            order. Take no arguements, inplace is always true. But for readability make new variable named sorted.
+
+            let fruits = ["Banana", "Orange", "Lemon" "Apple", "Mango"];
+            let sorted_fruits = fruits.sort();                // ["Apple", "Banana", "Lemon", "Mango", "Orange"];
+
+            .reverse()
+            Simply returns your list but with each element in it's reverse index. Takes no arguements, and inplace is
+            always true.
+
+            let fruits = ["Banana", "Orange", "Lemon" "Apple", "Mango"];
+            let sorted_fruits = fruits.sort();                // ["Apple", "Banana", "Lemon", "Mango", "Orange"];
+            let r_sorted_fruits = fruits.reverse();                // ["Orange", "Mango", "Lemon", "Banana", "Apple"];
+
+
+
+
+
+
+
 
 
 
