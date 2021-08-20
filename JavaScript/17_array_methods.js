@@ -213,8 +213,6 @@
             Grab the highest & lowest value by using array indexing. array[0] = lowest, array[array.lenght - 1] = highest
 
 
-
-
 	ADDITIONAL LINKS:
 		+ String Methods --> https://www.tutorialsteacher.com/javascript/javascript-string-methods-and-property
 		+ Date Methods   --> https://www.tutorialsteacher.com/javascript/javascript-date-methods-reference
