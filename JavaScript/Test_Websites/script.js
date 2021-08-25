@@ -1,5 +1,5 @@
 // Title: Learning Javascript - Sorting A List Of User Inputted Numbers
-// Date: 15/08/2021
+// Date: 24/08/2021
 // Author: Renacin Matadeen
 //
 //-----------------------------------------------------------------------------
